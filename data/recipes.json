@@ -1,0 +1,438 @@
+[
+  {
+    "inputs": [
+      {
+        "item": "iron_ore",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "iron_ingot",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "smelter",
+        "cycle_time": 2
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "iron_ingot",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "item": "iron_plate",
+        "quantity": 2
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 6
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "iron_ingot",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "iron_rod",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "copper_ore",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "copper_ingot",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "smelter",
+        "cycle_time": 2
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "copper_ingot",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "wire",
+        "quantity": 2
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "wire",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "cable",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 2
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "limestone",
+        "quantity": 3
+      }
+    ],
+    "outputs": [
+      {
+        "item": "concrete",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "iron_rod",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "screw",
+        "quantity": 4
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 6
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "iron_plate",
+        "quantity": 6
+      },
+      {
+        "item": "screw",
+        "quantity": 12
+      }
+    ],
+    "outputs": [
+      {
+        "item": "reinforced_iron_plate",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "assembler",
+        "cycle_time": 12
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "wood",
+        "quantity": 4
+      }
+    ],
+    "outputs": [
+      {
+        "item": "biomass",
+        "quantity": 20
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "leaves",
+        "quantity": 10
+      }
+    ],
+    "outputs": [
+      {
+        "item": "biomass",
+        "quantity": 5
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 5
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "alien_protein",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "biomass",
+        "quantity": 100
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "copper_ingot",
+        "quantity": 2
+      }
+    ],
+    "outputs": [
+      {
+        "item": "copper_sheet",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 6
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "iron_rod",
+        "quantity": 5
+      },
+      {
+        "item": "screw",
+        "quantity": 25
+      }
+    ],
+    "outputs": [
+      {
+        "item": "rotor",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "assembler",
+        "cycle_time": 15
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "reinforced_iron_plate",
+        "quantity": 3
+      },
+      {
+        "item": "iron_rod",
+        "quantity": 12
+      }
+    ],
+    "outputs": [
+      {
+        "item": "modular_frame",
+        "quantity": 2
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "assembler",
+        "cycle_time": 60
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "reinforced_iron_plate",
+        "quantity": 1
+      },
+      {
+        "item": "rotor",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "smart_plating",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "assembler",
+        "cycle_time": 30
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "biomass",
+        "quantity": 8
+      }
+    ],
+    "outputs": [
+      {
+        "item": "solid_biofuel",
+        "quantity": 4
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 4
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "flower_petals",
+        "quantity": 5
+      }
+    ],
+    "outputs": [
+      {
+        "item": "color_cartridge",
+        "quantity": 10
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 6
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "hatcher_remains",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "alien_protein",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 3
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "hog_remains",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "alien_protein",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 3
+      }
+    ]
+  },
+  {
+    "inputs": [
+      {
+        "item": "alien_protein",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "alien_dna_capsule",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "constructor",
+        "cycle_time": 6
+      }
+    ]
+  }
+]

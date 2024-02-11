@@ -1,0 +1,16 @@
+[
+  {
+    "machine_type": "smelter",
+    "energy_consumption": 4,
+    "built_with": [
+      {
+        "item": "iron_rod",
+        "quantity": 5
+      },
+      {
+        "item": "wire",
+        "quantity": 8
+      }
+    ]
+  }
+]
