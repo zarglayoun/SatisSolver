@@ -1,0 +1,94 @@
+[
+  {
+    "machine_type": "smelter",
+    "energy_consumption": 4,
+    "built_with": [
+      {
+        "item": "iron_rod",
+        "quantity": 5
+      },
+      {
+        "item": "wire",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "machine_type": "constructor",
+    "energy_consumption": 4,
+    "built_with": [
+      {
+        "item": "reinforced_iron_plate",
+        "quantity": 2
+      },
+      {
+        "item": "cable",
+        "quantity": 8
+      }
+    ]
+  },
+  {
+    "machine_type": "assembler",
+    "energy_consumption": 15,
+    "built_with": [
+      {
+        "item": "reinforced_iron_plate",
+        "quantity": 8
+      },
+      {
+        "item": "rotor",
+        "quantity": 4
+      },
+      {
+        "item": "cable",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "machine_type": "biomass_burner",
+    "energy_consumption": 30,
+    "built_with": [
+      {
+        "item": "iron_plate",
+        "quantity": 15
+      },
+      {
+        "item": "iron_rod",
+        "quantity": 15
+      },
+      {
+        "item": "wire",
+        "quantity": 25
+      }
+    ]
+  },
+  {
+    "machine_type": "power_pole",
+    "energy_consumption": 0,
+    "built_with": [
+      {
+        "item": "wire",
+        "quantity": 3
+      },
+      {
+        "item": "iron_rod",
+        "quantity": 1
+      },
+      {
+        "item": "concrete",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "machine_type": "power_line",
+    "energy_consumption": 0,
+    "built_with": [
+      {
+        "item": "cable",
+        "quantity": 1
+      }
+    ]
+  }
+]

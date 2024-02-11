@@ -1,0 +1,22 @@
+[
+  {
+    "inputs": [
+      {
+        "item": "iron_ore",
+        "quantity": 1
+      }
+    ],
+    "outputs": [
+      {
+        "item": "iron_ingot",
+        "quantity": 1
+      }
+    ],
+    "produced_in": [
+      {
+        "machine_type": "smelter",
+        "cycle_time": 2
+      }
+    ]
+  }
+]
